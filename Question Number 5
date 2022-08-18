@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNuHXaMBgbkBsFdKcnjJlVE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AndreiBenavidez/DSA-58011/blob/main/Question%20Number%205\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 22,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "50AgDZwAbs9y",
+        "outputId": "a25418c6-62b4-419d-e6a8-3105aae2bf9b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "21.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "class Rectangle:\n",
+        "  def __init__(self, length, width):\n",
+        "    self.length = length\n",
+        "    self.width = width\n",
+        "\n",
+        "  def Perimeter(self):\n",
+        "    print(2.1 * (self.length + self.width)) \n",
+        "\n",
+        "rect = Rectangle(7, 3)\n",
+        "rect.Perimeter()"
+      ]
+    }
+  ]
+}
